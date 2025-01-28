@@ -87,8 +87,8 @@ WHERE country = 'Germany';
 
 -- En la tabla company se elimina la fila “website”
 
-alter table company 
-drop website;
+ALTER TABLE company 
+DROP website;
 
 -- En la tabla credit card se ha añadido “fecha actual”
 
