@@ -2,29 +2,15 @@
 -- Ejercicio 1 
 
 create table credit_card
-(ID varchar (10),
-IBAN varchar (34),
+(ID varchar (20),
+IBAN varchar (50),
 PAN varchar (25),
 PIN varchar(4),
 CVV varchar(3),
-Expiring_Date varchar(10),
+Expiring_Date varchar(20),
 primary key (ID))
 ;
 
--- En un principio creé los varchars de la tabla credit_card según me pareció la longitud adecuada para cada uno de los campos. Las querys siguientes las realicé para usar las mismas longitudes que
--- aparecen en los ejercicios del sprint
-
-ALTER TABLE credit_card
-MODIFY COLUMN id varchar(20); 
-
-ALTER TABLE credit_card
-MODIFY COLUMN IBAN varchar(50); 
-
-ALTER TABLE credit_card
-MODIFY COLUMN CVV int; 
-
-ALTER TABLE credit_card
-MODIFY COLUMN Expiring_Date varchar(20); 
 
 -- Para crear la relación entre las tablas transaction y credit_card:
 
@@ -95,9 +81,6 @@ WHERE country = 'Germany';
 
 -- Ejercicio 1 
 
--- Para crear la tabla user hay que eliminar " FOREIGN KEY(id) REFERENCES transaction(user_id) ", ya que si no dará error en un paso siguiente. 
--- También se puede elimnar a posteriori con "Alter Table DROP FOREIGN KEY.
-
 -- En la tabla company se elimina la fila “website”
 
 ALTER TABLE company 
@@ -113,35 +96,19 @@ ADD fecha_actual date;
 ALTER TABLE user
 RENAME data_user;
 
--- 	Añadir en la tabla user el ID 9999
 
-INSERT INTO data_user (id) 
-VALUES ('9999');
-
---  	Añadir la FK de transaction con la tabla data_user
-
-ALTER TABLE transaction
-ADD FOREIGN KEY (user_id) REFERENCES data_user(id);
-
--- 	Añadir en la tabla credit_card el ID CcU-9999
-
-INSERT INTO credit_card (id) 
-VALUES ('CcU-9999');
 
 
 
 -- Ejercicio 3 
 
-
-CREATE VIEW 	InformeTecnico AS 
-SELECT t.id AS ID_transaccion, ROUND (amount, 2) AS cantidad, timestamp AS fecha, 
-declined AS declinado, du.name AS nombre_usuario, du.surname AS apellido_usuario, cc.IBAN, 
-credit_card_id AS ID_tarjeta, company_name AS nombre_compañía, c.country AS pais
-FROM company c 	
+CREATE VIEW InformeTecnico AS
+SELECT t.id AS transaction_id, amount, timestamp AS date, declined, du.name, du.surname, cc.IBAN, credit_card_id, company_name, c.country
+FROM company c
 	JOIN transaction t  ON c.id = t.company_id
-    JOIN credit_card cc ON t.credit_card_id = cc.id
-    JOIN data_user du   ON t.user_id = du.id
-ORDER BY ID_transaccion desc;
+	JOIN credit_card cc ON t.credit_card_id = cc.id
+	JOIN data_user  du 	ON t.user_id = du.id
+ORDER BY transaction_id desc;
 
 
 
