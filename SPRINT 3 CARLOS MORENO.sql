@@ -47,6 +47,8 @@ WHERE ID = 'CcU-2938';
 
 INSERT INTO company (id) VALUES ('b-9999');
 
+INSERT INTO credit_card (id) VALUES ('CcU-9999');
+
 INSERT INTO transaction (
 id, credit_card_id, company_id, user_id, lat, longitude, amount, declined
 )
@@ -93,6 +95,9 @@ WHERE country = 'Germany';
 
 -- Ejercicio 1 
 
+-- Para crear la tabla user hay que eliminar " FOREIGN KEY(id) REFERENCES transaction(user_id) ", ya que si no dará error en un paso siguiente. 
+-- También se puede elimnar a posteriori con "Alter Table DROP FOREIGN KEY.
+
 -- En la tabla company se elimina la fila “website”
 
 ALTER TABLE company 
@@ -106,7 +111,7 @@ ADD fecha_actual date;
 -- 	La tabla user cambió el nombre a data_user:
 
 ALTER TABLE user
-RENAME date_user;
+RENAME data_user;
 
 -- 	Añadir en la tabla user el ID 9999
 
