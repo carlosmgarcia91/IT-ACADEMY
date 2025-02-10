@@ -118,7 +118,7 @@ RENAME data_user;
 INSERT INTO data_user (id) 
 VALUES ('9999');
 
---  	Añadir la restricción con la tabla data_user
+--  	Añadir la FK de transaction con la tabla data_user
 
 ALTER TABLE transaction
 ADD FOREIGN KEY (user_id) REFERENCES data_user(id);
@@ -128,10 +128,6 @@ ADD FOREIGN KEY (user_id) REFERENCES data_user(id);
 INSERT INTO credit_card (id) 
 VALUES ('CcU-9999');
 
--- 	Añadir la restricción con la tabla credit_card
-
-ALTER TABLE transaction
-ADD FOREIGN KEY (credit_card_id) REFERENCES credit_card(id);
 
 
 -- Ejercicio 3 
