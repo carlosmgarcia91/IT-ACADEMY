@@ -96,6 +96,17 @@ ADD fecha_actual date;
 ALTER TABLE user
 RENAME data_user;
 
+-- Cambiar email por personal_email
+
+ALTER TABLE data_user
+RENAME COLUMN email TO personal_email;
+
+-- Cambiar CVV por int
+
+Alter table credit_card
+Modify CVV int;
+
+
 
 
 
