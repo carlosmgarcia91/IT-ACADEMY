@@ -26,7 +26,7 @@ MODIFY COLUMN CVV int;
 ALTER TABLE credit_card
 MODIFY COLUMN Expiring_Date varchar(20); 
 
--- Para crear la relación entre las tablas: 
+-- Para crear la relación entre las tablas transaction y credit_card:
 
 ALTER TABLE transaction
 ADD FOREIGN KEY (credit_card_ID) REFERENCES credit_card(ID);
