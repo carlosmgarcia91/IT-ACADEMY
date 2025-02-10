@@ -11,6 +11,9 @@ Expiring_Date varchar(10),
 primary key (ID))
 ;
 
+-- En un principio creé los varchars de la tabla credit_card según me pareció la longitud adecuada para cada uno de los campos. Las querys siguientes las realicé para usar las mismas longitudes que
+-- aparecen en los ejercicios del sprint
+
 ALTER TABLE credit_card
 MODIFY COLUMN id varchar(20); 
 
@@ -22,6 +25,11 @@ MODIFY COLUMN CVV int;
 
 ALTER TABLE credit_card
 MODIFY COLUMN Expiring_Date varchar(20); 
+
+-- Para crear la relación entre las tablas: 
+
+ALTER TABLE transaction
+ADD FOREIGN KEY (credit_card_ID) REFERENCES credit_card(ID);
 
 
 
