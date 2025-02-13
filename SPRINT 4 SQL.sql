@@ -213,10 +213,10 @@ SELECT card_id, SUM(declined) AS suma_declinados,
     	ELSE 'Tarjeta activa'
 	END AS tarjeta_estado
 FROM (
-	SELECT card_id, business_ID, date, amount, declined,
-    	ROW_NUMBER() OVER (PARTITION BY card_id ORDER BY date DESC) AS numeroFila
-	FROM
-    	transaction
+			SELECT card_id, business_ID, date, amount, declined,
+    			ROW_NUMBER() OVER (PARTITION BY card_id ORDER BY date DESC) AS numeroFila
+			FROM
+    			transaction
 ) AS ranked_transactions
 WHERE
 	numeroFila <= 3
