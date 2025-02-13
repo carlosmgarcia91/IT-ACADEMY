@@ -61,9 +61,11 @@ WHERE id = ‘02C6201E-D90A-1859-B4EE-88D2986D3B02’;
 
 -- Ejercicio 2 CREATE VIEW VistaMarketing AS
 CREATE VIEW VistaMarketing AS
-SELECT company_name, phone, country, ROUND(AVG(amount),2) As media
+SELECT company_name, phone, country, COALESCE(ROUND(AVG(amount),2)) As media
 FROM transaction t
-	JOIN company c ON t.company_id = c.id
+	JOIN company c 
+	ON t.company_id = c.id
+WHERE t.declined = 0
 GROUP BY company_name, phone, country
 ORDER BY media desc;
 
