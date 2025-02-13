@@ -79,7 +79,7 @@ ALTER TABLE products
 MODIFY price float (10,2);
 
 CREATE TABLE users (
-	ID INT PRIMARY KEY AUTO_INCREMENT,
+	ID INT PRIMARY KEY,
 	name VARCHAR(50),
 	surname VARCHAR(50),
 	phone VARCHAR(15),
@@ -155,22 +155,47 @@ drop constraint credit_card_ibfk_1;
 ALTER TABLE transaction
 ADD FOREIGN KEY (user_id) REFERENCES users(ID);
 
+-- Cambiar el formato de las columnas que están en varchar, conteniendo una fecha, para modificar el formato a date a posteriori. 
+
+SET SQL_safe_updates = 0;
+
+UPDATE users
+SET birth_date = STR_TO_DATE(birth_date, '%M %d, %Y');
+
+ALTER TABLE users
+MODIFY birth_date date;
+
+UPDATE credit_card
+SET expiring_Date = DATE_FORMAT(STR_TO_DATE(expiring_date, '%m/%d/%y '), '%y-%m-%d');
+
+-- El segundo cambio de formato es para dejarlo como dia-mes-año (paso posterior)
+
+UPDATE credit_card
+SET expiring_Date = DATE_FORMAT(STR_TO_DATE(expiring_date, '%y-%m-%d'), '%d-%m-%y');
+
+ALTER TABLE credit_card
+MODIFY expiring_date date;
+
+SET SQL_safe_updates = 1;
+
 -- _________________________________________________________________________________________________________________________________
 
 -- EJERCICIOS 
 
 USE ventas;
 
-SELECT *
-FROM users
-WHERE id IN (
-	SELECT user_id
-	FROM transaction
-	GROUP BY user_id
-	HAVING COUNT(id) > 30
-);
+SELECT * 
+FROM user
+WHERE user.id IN (
 
-SELECT IBAN, ROUND(AVG(amount),2) AS media
+					SELECT DISTINCT transactions.user_id
+					FROM transactions
+					GROUP BY transactions.user_id
+					HAVING COUNT(transactions.id) > 30
+                );
+-- Con COALESCE, en caso de haber valores nulos en amount, los devolverá como 0. 
+
+SELECT cc.IBAN, COALESCE(ROUND(AVG(t.amount),2), 0) AS media
 FROM credit_card cc
 	JOIN transaction t
     	ON cc.id = t.card_id
@@ -201,7 +226,7 @@ GROUP BY
 
 SELECT Count(card_id)
 FROM credit_card_estado
-WHERE tarjeta_Estado = 'Tarjeta activa';
+WHERE tarjeta_Estado = lower('Tarjeta activa');
 
 
 ALTER TABLE credit_card_estado
