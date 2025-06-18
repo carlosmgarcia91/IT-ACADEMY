@@ -1,0 +1,113 @@
+Código Postal,Provincia
+08912,Barcelona
+08001,Barcelona
+08030,Barcelona
+08901,Barcelona
+08018,Barcelona
+08002,Barcelona
+08004,Barcelona
+35200,Las Palmas
+01003,Álava
+08011,Barcelona
+08036,Barcelona
+08023,Barcelona
+2000,Fuera de España
+08016,Barcelona
+5505,Fuera de España
+5521,Fuera de España
+5500,Fuera de España
+43392,Tarragona
+35009,Las Palmas
+08013,Barcelona
+43820,Tarragona
+45002,Toledo
+08035,Barcelona
+08921,Barcelona
+50010,Zaragoza
+08907,Barcelona
+08905,Barcelona
+08006,Barcelona
+08029,Barcelona
+08015,Barcelona
+28031,Madrid
+08014,Barcelona
+28030,Madrid
+35012,Las Palmas
+08402,Barcelona
+08210,Barcelona
+08755,Barcelona
+08026,Barcelona
+08259,Barcelona
+38400,Santa Cruz de Tenerife
+08028,Barcelona
+08911,Barcelona
+08410,Barcelona
+17481,Girona
+08818,Barcelona
+28033,Madrid
+35411,Las Palmas
+08810,Barcelona
+6285NH,Fuera de España
+08005,Barcelona
+08022,Barcelona
+41927,Sevilla
+35013,Las Palmas
+08924,Barcelona
+35110,Las Palmas
+41010,Sevilla
+08902,Barcelona
+41930,Sevilla
+38390,Santa Cruz de Tenerife
+08783,Barcelona
+41940,Sevilla
+08770,Barcelona
+41002,Sevilla
+08025,Barcelona
+08330,Barcelona
+17600,Girona
+33207,Asturias
+17771,Girona
+17455,Girona
+08041,Barcelona
+08020,Barcelona
+08208,Barcelona
+08024,Barcelona
+35450,Las Palmas
+08042,Barcelona
+35220,Las Palmas
+08950,Barcelona
+08830,Barcelona
+35018,Las Palmas
+07181,Baleares
+39696,Cantabria
+35423,Las Palmas
+08027,Barcelona
+35015,Las Palmas
+43381,Tarragona
+08196,Barcelona
+38530,Santa Cruz de Tenerife
+38300,Santa Cruz de Tenerife
+08750,Barcelona
+35008,Las Palmas
+11404,Cádiz
+25001,Lleida
+28051,Madrid
+28048,Madrid
+08301,Barcelona
+08922,Barcelona
+43205,Tarragona
+08554,Barcelona
+08032,Barcelona
+29380,Málaga
+11370,Cádiz
+08003,Barcelona
+35460,Las Palmas
+08328,Barcelona
+08780,Barcelona
+08304,Barcelona
+08880,Barcelona
+08010,Barcelona
+08203,Barcelona
+11379,Cádiz
+08530,Barcelona
+08420,Barcelona

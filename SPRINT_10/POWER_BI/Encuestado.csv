@@ -1,0 +1,216 @@
+id_encuestado,edad,genero,ubicacion,tipo_area,nivel_educacion,inclinacion_politica,provincia_x,codigo_postal,provincia_y
+1,26,Femenino,08912,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+2,33,Masculino,08001,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+3,32,Masculino,08030,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+4,32,Femenino,08901,Urbana,Grado,Centro - izquierda,Barcelona,08,Barcelona
+5,37,Masculino,08018,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+6,36,Femenino,08002,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+7,39,Masculino,08004,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+8,37,Masculino,08002,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+9,32,Masculino,35200,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Las Palmas,35,Las Palmas
+10,44,Prefiero no contestar,01003,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Álava,01,Álava
+11,29,Masculino,08004,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+12,41,Masculino,08011,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+13,48,Masculino,08036,Urbana,Otra opción /prefiero no decirlo,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+14,35,Femenino,08023,Urbana,Grado,Centro - izquierda,Barcelona,08,Barcelona
+15,36,Masculino,08004,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+16,41,Masculino,2000,Urbana,Postgrado / Máster,Centro,Gipuzkoa,20,Gipuzkoa
+17,27,Femenino,08016,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+18,36,Femenino,5505,Urbana,Grado,Centro - derecha,,,
+19,24,Femenino,5521,Urbana,Grado,Otro / Prefiero no decirlo,,,
+20,35,Masculino,35200,Área residencial periférica,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Las Palmas,35,Las Palmas
+21,36,Femenino,5500,Urbana,Grado,Centro - derecha,,,
+22,42,Masculino,08004,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+23,35,Masculino,43392,Rural,Grado,Izquierda,Tarragona,43,Tarragona
+24,39,Femenino,35009,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+25,36,Masculino,08013,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+26,34,No binario,08004,Urbana,Otra opción /prefiero no decirlo,Izquierda,Barcelona,08,Barcelona
+27,39,Femenino,08004,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Barcelona,08,Barcelona
+28,42,Masculino,43820,Área residencial periférica,Postgrado / Máster,Centro - derecha,Tarragona,43,Tarragona
+29,40,Femenino,45002,Urbana,Grado,Derecha,Toledo,45,Toledo
+30,39,Masculino,08035,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+31,38,Masculino,08921,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+32,31,Femenino,35009,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+33,42,Masculino,50010,Urbana,Postgrado / Máster,Centro - izquierda,Zaragoza,50,Zaragoza
+34,35,Masculino,08907,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+35,40,Masculino,08905,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+36,38,Masculino,08006,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+37,37,Masculino,08029,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+38,33,Masculino,08015,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+39,34,Femenino,45002,Urbana,Grado,Izquierda,Toledo,45,Toledo
+40,28,Femenino,28031,Urbana,Postgrado / Máster,Izquierda,Madrid,28,Madrid
+41,32,Femenino,28031,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Madrid,28,Madrid
+42,39,Masculino,08014,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+43,27,Femenino,28030,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Madrid,28,Madrid
+44,28,Femenino,35012,Urbana,Bachiller / Ciclo formativo grado superior,Centro - derecha,Las Palmas,35,Las Palmas
+45,64,Femenino,28030,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Madrid,28,Madrid
+46,35,Masculino,08018,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+47,47,Masculino,08004,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+48,41,Masculino,08018,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+49,32,Masculino,08402,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Barcelona,08,Barcelona
+50,38,Femenino,08210,Urbana,Grado,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+51,32,Femenino,08755,Área residencial periférica,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+52,33,No binario,08015,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+53,34,Femenino,08026,Urbana,Postgrado / Máster,Centro,Barcelona,08,Barcelona
+54,38,Masculino,08259,Rural,Doctorado,Izquierda,Barcelona,08,Barcelona
+55,33,Femenino,38400,Urbana,Grado,Izquierda,Santa Cruz de Tenerife,38,Santa Cruz de Tenerife
+56,41,Masculino,08028,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+57,28,Femenino,08911,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+58,48,Masculino,08015,Urbana,Bachiller / Ciclo formativo grado superior,Centro,Barcelona,08,Barcelona
+59,33,Masculino,08410,Área residencial periférica,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+60,33,Femenino,17481,Urbana,Grado,Izquierda,Girona,17,Girona
+61,39,Masculino,08818,Urbana,Postgrado / Máster,Centro - derecha,Barcelona,08,Barcelona
+62,30,Femenino,28033,Urbana,Grado,Centro - izquierda,Madrid,28,Madrid
+63,36,Femenino,5500,Urbana,Grado,Centro - izquierda,,,
+64,39,Masculino,08014,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+65,44,Femenino,08901,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+66,28,Masculino,28033,Urbana,Postgrado / Máster,Izquierda,Madrid,28,Madrid
+67,38,Femenino,35411,Urbana,Bachiller / Ciclo formativo grado superior,Derecha,Las Palmas,35,Las Palmas
+68,44,Femenino,08004,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Barcelona,08,Barcelona
+69,30,Femenino,08810,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+70,29,Masculino,6285NH,Rural,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,,,
+71,30,Masculino,08005,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+72,35,Masculino,08035,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+73,42,Masculino,08023,Urbana,Bachiller / Ciclo formativo grado superior,Centro,Barcelona,08,Barcelona
+74,31,Masculino,08022,Urbana,Doctorado,Centro - derecha,Barcelona,08,Barcelona
+75,38,Masculino,41927,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Sevilla,41,Sevilla
+76,64,Femenino,35013,Urbana,ESO / Ciclo formativo grado medio,Centro - izquierda,Las Palmas,35,Las Palmas
+77,32,Femenino,08924,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+78,38,Masculino,41927,Área residencial periférica,Otra opción /prefiero no decirlo,Centro - derecha,Sevilla,41,Sevilla
+79,35,Femenino,41927,Urbana,Postgrado / Máster,Izquierda,Sevilla,41,Sevilla
+80,31,Masculino,35110,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Las Palmas,35,Las Palmas
+81,37,Masculino,41010,Urbana,Postgrado / Máster,Centro - derecha,Sevilla,41,Sevilla
+82,47,Masculino,08902,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+83,31,Masculino,08014,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+84,30,Masculino,08901,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+85,38,Femenino,41930,Área residencial periférica,Otra opción /prefiero no decirlo,Centro,Sevilla,41,Sevilla
+86,36,Masculino,38390,Urbana,Postgrado / Máster,Izquierda,Santa Cruz de Tenerife,38,Santa Cruz de Tenerife
+87,26,Prefiero no contestar,08036,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+88,28,Femenino,35009,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Las Palmas,35,Las Palmas
+89,43,Femenino,35009,Urbana,Bachiller / Ciclo formativo grado superior,Derecha,Las Palmas,35,Las Palmas
+90,42,Masculino,08001,Urbana,Grado,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+91,32,Masculino,41930,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Sevilla,41,Sevilla
+92,63,Masculino,08783,Área residencial periférica,Bachiller / Ciclo formativo grado superior,Centro,Barcelona,08,Barcelona
+93,38,Masculino,41940,Área residencial periférica,Grado,Otro / Prefiero no decirlo,Sevilla,41,Sevilla
+94,41,Femenino,08770,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+95,35,Femenino,41002,Urbana,Postgrado / Máster,Centro,Sevilla,41,Sevilla
+96,36,Masculino,08025,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+97,63,Masculino,08025,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+98,51,Masculino,08330,Urbana,ESO / Ciclo formativo grado medio,Centro - izquierda,Barcelona,08,Barcelona
+99,28,Masculino,08014,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+100,28,Masculino,17600,Urbana,ESO / Ciclo formativo grado medio,Izquierda,Girona,17,Girona
+101,48,Masculino,33207,Urbana,Grado,Centro - izquierda,Asturias,33,Asturias
+102,26,Femenino,17600,Urbana,ESO / Ciclo formativo grado medio,Centro - izquierda,Girona,17,Girona
+103,27,Femenino,17771,Rural,Bachiller / Ciclo formativo grado superior,Centro,Girona,17,Girona
+104,25,Masculino,17455,Área residencial periférica,Bachiller / Ciclo formativo grado superior,Izquierda,Girona,17,Girona
+105,34,Femenino,08002,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+106,28,Femenino,17600,Urbana,Bachiller / Ciclo formativo grado superior,Centro,Girona,17,Girona
+107,36,Femenino,08001,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+108,33,Masculino,08911,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+109,34,Femenino,08402,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+110,30,Masculino,08041,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+111,27,Masculino,08020,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+112,39,Femenino,08770,Área residencial periférica,Grado,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+113,35,Femenino,08921,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+114,40,Femenino,08208,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+115,39,Femenino,08014,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+116,31,Masculino,08002,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+117,25,Masculino,08029,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+118,33,Masculino,08024,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+119,36,Femenino,35450,Rural,Postgrado / Máster,Izquierda,Las Palmas,35,Las Palmas
+120,44,Femenino,08042,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+121,33,No binario,08029,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+122,41,Femenino,35012,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Las Palmas,35,Las Palmas
+123,33,Femenino,08025,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+124,55,Masculino,35220,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+125,33,Femenino,08028,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+126,45,Masculino,08950,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+127,33,Femenino,08830,Área residencial periférica,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+128,46,Femenino,35018,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+129,36,Femenino,07181,Área residencial periférica,Postgrado / Máster,Centro - izquierda,Islas Baleares,07,Islas Baleares
+130,38,Masculino,39696,Rural,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Cantabria,39,Cantabria
+131,37,Masculino,08011,Urbana,Postgrado / Máster,Centro,Barcelona,08,Barcelona
+132,39,Femenino,35423,Rural,Grado,Centro - izquierda,Las Palmas,35,Las Palmas
+133,29,Femenino,08015,Urbana,Bachiller / Ciclo formativo grado superior,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+134,36,Femenino,35012,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+135,38,Femenino,08041,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+136,35,Masculino,08027,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+137,38,Femenino,35009,Área residencial periférica,ESO / Ciclo formativo grado medio,Derecha,Las Palmas,35,Las Palmas
+138,49,Femenino,35015,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+139,45,Femenino,43381,Rural,Bachiller / Ciclo formativo grado superior,Izquierda,Tarragona,43,Tarragona
+140,30,Femenino,08196,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+141,32,Masculino,08011,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+142,37,Masculino,38530,Urbana,Postgrado / Máster,Izquierda,Santa Cruz de Tenerife,38,Santa Cruz de Tenerife
+143,46,Masculino,38300,Rural,Postgrado / Máster,Otro / Prefiero no decirlo,Santa Cruz de Tenerife,38,Santa Cruz de Tenerife
+144,57,Femenino,08028,Urbana,Grado,Centro - izquierda,Barcelona,08,Barcelona
+145,28,Masculino,35009,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Las Palmas,35,Las Palmas
+146,25,Femenino,08750,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+147,28,Femenino,35008,Urbana,Postgrado / Máster,Izquierda,Las Palmas,35,Las Palmas
+148,41,Masculino,11404,Urbana,Postgrado / Máster,Izquierda,Cádiz,11,Cádiz
+149,18,Femenino,25001,Urbana,Grado,Centro - derecha,Lleida,25,Lleida
+150,47,Femenino,08004,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+151,39,Masculino,08014,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+152,31,Femenino,28051,Área residencial periférica,Bachiller / Ciclo formativo grado superior,Izquierda,Madrid,28,Madrid
+153,45,Femenino,35009,Urbana,Otra opción /prefiero no decirlo,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+154,40,Masculino,08026,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+155,42,Masculino,28048,Urbana,Bachiller / Ciclo formativo grado superior,Centro,Madrid,28,Madrid
+156,31,Masculino,08912,Urbana,Grado,Centro - derecha,Barcelona,08,Barcelona
+157,27,Femenino,08024,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+158,31,Masculino,08020,Urbana,Grado,Centro - izquierda,Barcelona,08,Barcelona
+159,41,Masculino,08036,Urbana,Postgrado / Máster,Derecha,Barcelona,08,Barcelona
+160,31,Masculino,08301,Urbana,Grado,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+161,25,Femenino,08922,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+162,36,Masculino,08924,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+163,22,Femenino,43205,Urbana,Grado,Otro / Prefiero no decirlo,Tarragona,43,Tarragona
+164,32,Masculino,08554,Rural,ESO / Ciclo formativo grado medio,Derecha,Barcelona,08,Barcelona
+165,32,Femenino,08032,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+166,29,Femenino,28031,Urbana,Postgrado / Máster,Centro,Madrid,28,Madrid
+167,31,Femenino,29380,Rural,Bachiller / Ciclo formativo grado superior,Izquierda,Málaga,29,Málaga
+168,33,Masculino,08014,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+169,34,Femenino,11370,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Cádiz,11,Cádiz
+170,30,Femenino,08003,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+171,36,Masculino,35018,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Las Palmas,35,Las Palmas
+172,40,Femenino,35460,Urbana,Grado,Otro / Prefiero no decirlo,Las Palmas,35,Las Palmas
+173,55,Masculino,11370,Urbana,Otra opción /prefiero no decirlo,Centro - izquierda,Cádiz,11,Cádiz
+174,37,Femenino,08025,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+175,24,Masculino,08328,Área residencial periférica,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+176,23,Masculino,08025,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+177,37,Femenino,08780,Área residencial periférica,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+178,38,Masculino,08023,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+179,39,Femenino,08023,Urbana,Grado,Centro,Barcelona,08,Barcelona
+180,38,Masculino,08304,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+181,30,Femenino,08030,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+182,37,Masculino,08020,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+183,51,Femenino,08901,Urbana,Bachiller / Ciclo formativo grado superior,Izquierda,Barcelona,08,Barcelona
+184,36,Femenino,08880,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+185,33,Femenino,08029,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+186,49,Masculino,08030,Urbana,Grado,Centro,Barcelona,08,Barcelona
+187,33,Masculino,08905,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+188,40,Femenino,08014,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+189,30,Femenino,08902,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+190,25,Femenino,08907,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+191,34,Femenino,08018,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+192,37,Femenino,08912,Urbana,Bachiller / Ciclo formativo grado superior,Centro - izquierda,Barcelona,08,Barcelona
+193,39,Masculino,08035,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+194,55,Femenino,08024,Urbana,Postgrado / Máster,Centro,Barcelona,08,Barcelona
+195,29,Femenino,08010,Urbana,Postgrado / Máster,Centro,Barcelona,08,Barcelona
+196,38,Masculino,08203,Urbana,Grado,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+197,43,Femenino,08006,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+198,36,Femenino,08041,Urbana,Grado,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+199,28,Femenino,11379,Urbana,Bachiller / Ciclo formativo grado superior,Centro,Cádiz,11,Cádiz
+200,35,Masculino,08025,Urbana,ESO / Ciclo formativo grado medio,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+201,28,Masculino,08921,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+202,49,Femenino,08530,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+203,37,Masculino,08030,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+204,36,Femenino,08014,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+205,39,Femenino,08042,Urbana,Postgrado / Máster,Centro - derecha,Barcelona,08,Barcelona
+206,53,Masculino,08005,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+207,38,Femenino,08042,Urbana,Grado,Derecha,Barcelona,08,Barcelona
+208,36,Femenino,08420,Urbana,Postgrado / Máster,Otro / Prefiero no decirlo,Barcelona,08,Barcelona
+209,49,Femenino,08911,Urbana,Postgrado / Máster,Centro - izquierda,Barcelona,08,Barcelona
+210,42,Masculino,08042,Urbana,Bachiller / Ciclo formativo grado superior,Derecha,Barcelona,08,Barcelona
+211,51,Femenino,08014,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+212,37,Femenino,08030,Urbana,Grado,Izquierda,Barcelona,08,Barcelona
+213,42,No binario,08023,Urbana,Postgrado / Máster,Izquierda,Barcelona,08,Barcelona
+214,54,Masculino,08018,Urbana,Grado,Centro - izquierda,Barcelona,08,Barcelona
+215,27,Femenino,08013,Urbana,Grado,Izquierda,Barcelona,08,Barcelona

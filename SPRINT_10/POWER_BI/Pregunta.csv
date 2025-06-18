@@ -1,0 +1,34 @@
+id_pregunta,texto_pregunta,tipo,seccion,texto_preggunta
+1,Marca temporal,datetime,Metadatos,
+2,Edad (en años),numérica,Sociodemográficos,
+3,Género,categórica,Sociodemográficos,
+4,Código Postal donde reside,texto,Sociodemográficos,
+5,Tipo de área donde reside,categórica,Sociodemográficos,
+6,Nivel de educación alcanzado,categórica,Sociodemográficos,
+7,Inclinación política,categórica,Sociodemográficos,
+8,¿Alguna vez le han diagnosticado algún trastorno de ansiedad?,categórica,Salud y Ansiedad,
+9,"En una escala del 1 al 10, ¿Cómo calificaría su nivel actual de ansiedad?",numérica,Salud y Ansiedad,
+10,"Durante las últimas dos semanas, ¿con qué frecuencia ha experimentado preocupación excesiva? (0 = Ningún día, 1 = Varios días, 2 = Más de la mitad de los días, 3 = Casi todos los días)",ordinal,Salud y Ansiedad,
+11,,ordinal,Salud y Ansiedad,"Durante las últimas dos semanas, ¿con qué frecuencia ha tenido dificultad para relajarse? (0 = Ningún día, 1 = Varios días, 2 = Más de la mitad de los días, 3 = Casi todos los días)"
+12,"Durante las últimas dos semanas, ¿con qué frecuencia ha sentido nerviosismo o estrés? (0 = Ningún día, 1 = Varios días, 2 = Más de la mitad de los días, 3 = Casi todos los días)",ordinal,Salud y Ansiedad,
+13,¿Ha sufrido un ataque de ansiedad o pánico en los últimos meses?,categórica,Salud y Ansiedad,
+14,"En caso afirmativo, ¿hace cuánto tiempo ocurrió el último ataque de ansiedad o pánico? (indique el tiempo en semanas)",numérica,Salud y Ansiedad,
+15,"Durante la última semana, ¿ha practicado alguna actividad física o deporte?",categórica,Estilo de Vida,
+16,"Si respondió 'Sí', ¿Cuántas veces practicó actividad física o deporte en la última semana?",numérica,Estilo de Vida,
+17,"En promedio, ¿Cuántas horas diarias permanece sentado/a en actividades de trabajo?",numérica,Estilo de Vida,
+18,"En promedio, ¿Cuántas horas diarias permanece sentado/a en actividades de ocio o tiempo personal?",numérica,Estilo de Vida,
+19,"En promedio, ¿Cuántas horas diarias permanece sentado/a en transporte?",numérica,Estilo de Vida,
+20,¿Con qué frecuencia presenta dificultades para conciliar el sueño?,ordinal,Estilo de Vida,
+21,¿Cuántas horas duerme en promedio por noche?,numérica,Estilo de Vida,
+22,¿Cómo describiría su dieta? (Puede seleccionar varias opciones),categórica,Alimentación y Dieta,
+23,¿Cuántas comidas realiza al día por norma general?,numérica,Alimentación y Dieta,
+24,"En promedio, ¿Cuántas porciones de frutas y verduras ha consumido diariamente la última semana?",numérica,Alimentación y Dieta,
+25,¿Cuántas tazas de café (u otras bebidas con cafeína) consume al día?,numérica,Alimentación y Dieta,
+26,¿Cuántas porciones de alimentos ultraprocesados consume en un día típico?,numérica,Alimentación y Dieta,
+27,,categórica,Alimentación y Dieta,¿Con qué frecuencia siente que consume alimentos debido a ansiedad o estrés?
+28,,categórica,Alimentación y Dieta,"Cuando experimenta ansiedad, ¿cómo suele afectar su comportamiento alimenticio?"
+29,"En una escala del 1 al 4, donde 1 es 'muy bajo' y 4 es 'muy alto', ¿Cómo calificaría su nivel de estrés relacionado con el trabajo o el estudio?",numérica,Factores Contextuales,
+30,¿Considera que tiene un buen balance entre su vida laboral/estudio y personal?,categórica,Factores Contextuales,
+31,,numérica,Factores Contextuales,"Aproximadamente, ¿Cuántas horas diarias dedica a redes sociales o a actividades en dispositivos electrónicos?"
+32,,texto,Preguntas Abiertas,Escriba cinco palabras que asocie con la ansiedad
+33,,texto,Preguntas Abiertas,Escriba cinco palabras que asocie con un período sin ansiedad o con momentos de calma
